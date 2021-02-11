@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/module/loginWithGoogle/loginScreen.dart';
+import 'package:flutter_samples/module/loginWithGoogle/homeLoginWithGoogle.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginScreen(),
+      home: HomeLoginWithGoogle(),
     );
   }
 }
