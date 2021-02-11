@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_samples/module/loginWithGoogle/widget/backGroundPainter.dart';
 import 'package:flutter_samples/module/loginWithGoogle/widget/loginWithGoogleButton.dart';
 
-class LoginScreen extends StatelessWidget {
+class SignUpWithGoogle extends StatelessWidget {
   @override
- Widget build(BuildContext context) => Stack(
+   Widget build(BuildContext context) => Stack(
         fit: StackFit.expand,
         children: [
           CustomPaint(painter: BackgroundPainter()),
